@@ -301,7 +301,7 @@ def first_run(cmd):
                          level=logging.WARN)
             LOGGER.print("\nThis can be fixed by opening the '!B!Manage app "
                          "execution aliases!W!' settings page and enabling each "
-                         "item labelled '!B!Python (default)!W!' and '!B!Python "
+                         "item labeled '!B!Python (default)!W!' and '!B!Python "
                          "install manager!W!'.\n", wrap=True)
             if (
                 cmd.confirm and
